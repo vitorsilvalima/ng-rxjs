@@ -1,3 +1,2 @@
-<h1>
-  {{title}}
-</h1>
+<input #proc (keyup)="procuraInput(proc.value)">
+<pre>{{items | async | json}}</pre>
